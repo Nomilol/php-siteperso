@@ -1,1 +1,1 @@
-put some footer here
+Mentions légales bla bla bla 
