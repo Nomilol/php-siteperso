@@ -1,1 +1,10 @@
-<h1>maison sucré maison</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<h1 class="header">Bienvenue sur mon site</h1>
+</body>
+</html>
