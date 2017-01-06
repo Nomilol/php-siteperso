@@ -1,1 +1,1 @@
-<span>coucou@gmail.com</span>
+<p>coucou@gmail.com</p>
