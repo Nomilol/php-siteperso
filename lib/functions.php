@@ -22,5 +22,8 @@ function getPart($name){
 
 function getUserData(){
 	$filename = file_get_contents('../data/user.json');
-	echo $filename;
+	$filenamedecode = json_decode($filename, true);
+	foreach ($filenamedecode as $key => $value) {
+		return $value;
+	}
 };
