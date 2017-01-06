@@ -11,6 +11,6 @@ error_reporting(E_ALL);
 // on inclue le fichier qui contient nos fonctions
 require __DIR__ . '/../lib/functions.php';
 // l'exemple avec le header, à vous de jouer pour le reste
-getPart('../pages/home');
-getPart('footer');
 getPart('header');
+getContent();
+getPart('footer');
