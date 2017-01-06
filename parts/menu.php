@@ -5,8 +5,12 @@
 	<title>Document</title>
 </head>
 <body>
-	<a href="home.php">Accueil</a>
-	<a href="contact.php">Contact</a>
-	<a href="bio.php">Bio</a>
+	<div class="menu">
+		<ul>
+			<li><a href="home.php">Accueil</a></li>
+			<li><a href="contact.php">Contact</a></li>
+			<li><a href="bio.php">Bio</a></li>
+		</ul>
+	</div>
 </body>
 </html>
