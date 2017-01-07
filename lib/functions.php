@@ -27,3 +27,10 @@ function getUserData(){
 		return $value;
 	}
 };
+
+
+function postContent(){
+	$message = file_get_contents('../pages/contact.php');
+	$messageEncode = json_encode($message);
+	$messageJson = file_put_contents('../data/last_message', $messageEncode);
+};

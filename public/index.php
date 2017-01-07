@@ -15,3 +15,4 @@ getPart('header');
 getContent();
 getPart('footer');
 echo getUserData();
+postContent();
